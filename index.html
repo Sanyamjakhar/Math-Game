@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>The Inevitable Math Quiz</title>
+</head>
+
+<body style="background-color: black;">
+    <center>
+        <h2 class="glow">The Inevitable Math Quiz</h2>
+        <br>
+        <h3 style="font-size: 35px; color: white;">Login</h3>
+        <br>
+
+
+        <div class="row">
+            <div style="width: 150px;"></div>
+
+            <div style="background-color: red;" id="PlayerWholeDivStyle">
+                <h2 class="ShadowText">Player 1</h2>
+                <br>
+                <img src="PlayerUser1.png" height="150">
+                <br>
+                <br>
+                <div>
+                    <label style="font-size: 20px;"><b>Player 1 Username - </b></label>
+                    <input type="text" placeholder="Enter Username" id="Username1Input">
+                </div>
+                <br>
+                <br>
+            </div>
+
+            <div style="width: 100px;"></div>
+
+            <div style="background-color: dodgerblue;" id="PlayerWholeDivStyle">
+                <h2 class="ShadowText">Player 2</h2>
+                <br>
+                <img src="PlayerUser2.jpeg" height="150">
+                <br>
+                <br>
+                <div>
+                    <label style="font-size: 20px;"><b>Player 2 Username - </b></label>
+                    <input type="text" placeholder="Enter Username" id="Username2Input">
+                </div>
+                <br>
+                <br>
+            </div>
+            <div style="width: 100px;"></div>
+            <br>
+            <br>
+    </center>
+    </div>
+    <hr style="color: white;">
+
+    <h5 style="color: white;">*** Both Players Playing In The Same Device</h5>
+    <h4 style="color: crimson;" id="WarningLabel"></h4>
+    <br>
+    <button style="width: 20%;" type="button" class="btn btn-success" id="ButtonLogIn" onclick="AddUsers()">Log
+        in</button>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

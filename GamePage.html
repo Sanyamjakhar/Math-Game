@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>The Inevitable Math Quiz</title>
+</head>
+
+<body style="background-color: black; ">
+    <center>
+        <div class="container">
+            <h2 id="ScoreFullOutput1" style="color: white; text-align: center;">Player 1 <span
+                    id="Player1UsernameOutputIOnScoreLabel"></span> Score :
+                <span id="scorePlayer1">0</span></h2>
+            <h2 id="ScoreFullOutput2" style="color: white; text-align: center;">Player 2 <span
+                    id="Player2UsernameOutputIOnScoreLabel"></span> Score :
+                <span id="scorePlayer2">0</span></h2>
+            <br>
+            <h1 class="glow" style="margin-top: 100px;">The Inevitable Math Quiz</h1>
+            <h1 id="QuestionTurnOutput" style="color: deepskyblue;">Question Turn - Player1</h1>
+            <h1 id="AnswerTurnOutput" style="color: deepskyblue;">Answer Turn - Player2</h1>
+            <br>
+            <div>
+                <div id="EquationAnswerInputAndCheckButtonOutput">
+                </div>
+                <br>
+                <span style="color: deepskyblue; font-size: 35px;">First Number - </span>
+                <input style="height: 40px;width: 300px;" type="number" id="FirstNumberInput"
+                    placeholder="Enter First Number Here">
+                <br>
+                <br>
+                <span style="color: deepskyblue; font-size: 35px;">Second Number - </span>
+                <input style="height: 40px; width: 300px;" type="number" id="SecondNumberInput"
+                    placeholder="Enter Second Number Here">
+            </div>
+            <br>
+            <button style="width: 20%; background-color: limegreen; height: 50px; font-size: 30px;"
+                id="ButtonMakeQuestion" onclick="MakeQuestion()">Set</button>
+        </div>
+    </center>
+    <script src="main.js"></script>
+</body>
+
+</html>
